@@ -1,9 +1,12 @@
+import Image from "next/image";
 import { Button } from "./ui/button";
+import background from "@/public/background.png"
 
 export function Hero() {
   return (
-    <section className="min-h-screen flex items-center justify-center bg-linear-to-b from-slate-100 to-blue-100">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center py-20">
+    <section className="relative min-h-screen flex items-center justify-center bg-linear-to-b from-slate-100 to-blue-100">
+      <Image src={background} alt="" className="absolute opacity-30"/>
+      <div className="z-20 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center py-20">
         <h2 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-slate-700 mb-6 leading-tight">
           Pristine Cleanliness Meets Expert Care
         </h2>

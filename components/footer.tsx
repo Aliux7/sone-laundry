@@ -43,10 +43,10 @@ export function Footer() {
               <div className="flex items-center justify-between gap-4">
                 <Mail size={18} />
                 <span>hello@sonelaundry.com</span>
-              </div>
+              </div> 
               <div className="flex items-center justify-between gap-4">
                 <MapPin size={18} />
-                <span>123 Laundry Lane, City, ST 12345</span>
+                <span>Jl. Tanah Tinggi III No. 15F, Jakarta Pusat</span>
               </div>
             </div>
           </div>
