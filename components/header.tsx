@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "./ui/button";
+import Link from "next/link";
 
 export function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -35,9 +36,9 @@ export function Header() {
               </a>
             ))}
 
-            <Button className="bg-linear-to-b from-blue-700 to-blue-500 hover:bg-linear-to-t text-white cursor-pointer">
-              Book Now
-            </Button>
+            <Link href={"https://wa.me/6285117618643"} className="bg-linear-to-b from-blue-700 to-blue-500 hover:bg-linear-to-t text-white cursor-pointer px-5 py-2 rounded-lg">
+              Hubungi Kami
+            </Link>
           </div>
  
           <button
@@ -48,8 +49,7 @@ export function Header() {
             {isOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
         </div>
-
-        {/* Mobile Menu */}
+ 
         {isOpen && (
           <div className="md:hidden pb-4">
             <div className="flex flex-col gap-4">

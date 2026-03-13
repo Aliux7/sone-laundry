@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Button } from "./ui/button";
 
 export function CTA() {
@@ -5,25 +6,22 @@ export function CTA() {
     <section className="py-20 bg-linear-to-b from-slate-100 to-blue-100 text-slate-700">
       <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h3 className="text-4xl sm:text-5xl font-bold mb-6">
-          Ready to Experience Premium Laundry Care?
+          Siap Membersihkan Sepatu Anda?
         </h3>
 
         <p className="text-lg text-slate-700 mb-8 max-w-xl mx-auto">
-          Join hundreds of satisfied customers who trust Sone Laundry for
-          their fabric care needs.
+          Percayakan sepatu dan barang favorit Anda kepada layanan laundry
+          sepatu dan dry clean profesional dari Sone Laundry. Bersih, rapi,
+          dan terawat seperti baru kembali.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Button className="bg-linear-to-b from-blue-700 to-blue-500 hover:bg-linear-to-t text-white cursor-pointer px-8 py-6 text-lg">
-            Book Now
-          </Button>
-
-          <Button
-            variant="outline"
-            className="border-blue-600 text-blue-600 bg-linear-to-b from-blue-100 to-blue-50 hover:bg-linear-to-t hover:text-blue-600 cursor-pointer px-8 py-6 text-lg"
+          <Link
+            href={"https://wa.me/6285117618643"}
+            className="rounded-xl bg-linear-to-b from-blue-700 to-blue-500 hover:bg-linear-to-t text-white cursor-pointer px-10 py-2.5 text-lg"
           >
-            Contact Us
-          </Button>
+            Pesan Sekarang
+          </Link>
         </div>
       </div>
     </section>
