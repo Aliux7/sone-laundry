@@ -65,7 +65,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-slate-800/20 pt-8 text-center text-slate-800/80">
-          <p>&copy; 2024 Sone Laundry. Seluruh hak cipta dilindungi.</p>
+          <p>&copy; 2025 Sone Laundry. Seluruh hak cipta dilindungi.</p>
         </div>
       </div>
     </footer>
