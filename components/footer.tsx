@@ -9,7 +9,6 @@ export function Footer() {
     >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
-          
           <div>
             <h4 className="text-xl font-bold mb-4">Sone Laundry</h4>
             <p className="text-slate-800/80">
@@ -51,14 +50,17 @@ export function Footer() {
           <div className="text-right flex flex-col justify-end items-end">
             <h5 className="font-semibold mb-4">Kontak</h5>
             <div className="space-y-3 text-slate-800/80">
-              <Link href={"https://wa.me/6285117618643"} className="flex items-center justify-between gap-4">
+              <Link
+                href={"https://wa.me/6285117618643"}
+                className="flex items-center justify-between gap-4"
+              >
                 <Phone size={18} />
                 <span>(+62) 851-1761-8643</span>
-              </Link> 
+              </Link>
 
               <div className="flex items-center justify-between gap-4">
                 <MapPin size={18} />
-                <span>Jl. Tanah Tinggi III No. 15F, Jakarta Pusat</span>
+                <span>Jl. Tanah Tinggi III No. 15F, Jakarta</span>
               </div>
             </div>
           </div>

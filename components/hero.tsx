@@ -15,7 +15,7 @@ export function Hero() {
 
       <div className="z-20 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center py-20">
         <h2 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-slate-700 mb-6 leading-tight">
-          Sepatu Bersih, Percaya Diri Kembali
+          Service Number One
         </h2>
 
         <p className="text-lg sm:text-xl text-slate-600 mb-8 max-w-3xl mx-auto">
