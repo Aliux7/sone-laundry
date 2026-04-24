@@ -60,7 +60,7 @@ export function Footer() {
 
               <div className="flex items-center justify-between gap-4">
                 <MapPin size={18} />
-                <span>Jl. Tanah Tinggi III No. 15F, Jakarta</span>
+                <span>Jakarta</span>
               </div>
             </div>
           </div>
